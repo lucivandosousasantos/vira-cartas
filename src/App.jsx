@@ -3,7 +3,7 @@ import carta from './assets/baralho-cartas.png'
 
 function App() {
   const [cartaVirada, setCartaVirada] = useState(carta)
-  const [virar, setVirar] = useState(true)
+  const [virar, setVirar] = useState(false)
 
   function viraCarta() {
     const numCarta = Math.floor(Math.random()*((12 - 1) + 1)) + 1
